@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { getNews } from "../service/api";
 
@@ -7,7 +8,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import Article from './Article';
 
 const Articles = () => {
-
+ 
     const [news, setNews] = useState([]);
     const [page, setPage] = useState(0);
 
