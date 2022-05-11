@@ -4,6 +4,7 @@ import { Box, styled } from '@mui/material';
 //components
 import Header from './components/Header';
 import InfoHeader from './components/InfoHeader';
+import Articles from './components/Articles';
 //  import Articles from './components/Articles';
 
 
@@ -25,7 +26,7 @@ function App() {
       <Header />
       <Container>
         <InfoHeader />
-        
+        <Articles />
       </Container>
     </Box>
   );
